@@ -33,7 +33,7 @@ public class DishVO implements Serializable {
     //更新时间
     private LocalDateTime updateTime;
     //分类名称
-    private String categoryName;
+    private String categoryName; //数据库搜索出来要和这个保持一致
     //菜品关联的口味
     private List<DishFlavor> flavors = new ArrayList<>();
 
